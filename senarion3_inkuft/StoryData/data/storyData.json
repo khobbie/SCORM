@@ -363,7 +363,7 @@
                 "color": "#FFEE1A",
                 "strokeWidth": "[%num]0"
             },
-            "useInitPopulation": ["Lucy turns to you and starts yelling, asking why you called the police.  What right did you have to interfere in the first place? She says that you’ve only made it worse for her. And now she’ll surely be fired and labelled a troublemaker.  She won’t cooperate and wants to leave.  "],
+            "useInitPopulation": ["ᓘᓯ ᐃᓕᖕᓄᑦ ᓵᖦᓗᓂ ᖃᐃᒐᓛᓕᕐᓗᓂᓗ, ᐊᐱᕆᓪᓗᓂ ᖃᓄᐃᒻᒪᑦ ᐸᓖᓯᒃᑯᓐᓄᑦ ᐅᖃᓗᕐᐱᑦ.  ᑭᓱᒥᒃ ᐱᔪᓐᓇᐅᑎᖃᖅᐱᑦ ᐅᓚᕕᓴᐃᔭᕆᐊᖃᓚᐅᖅᐱᑦ ᓯᕗᓪᓕᕐᒥ?  ᐅᖃᖅᑐᓂ ᐱᐅᒍᓐᓃᑲᓐᓂᖅᓯᒪᓂᕋᑦᑐᓂᐅᒃ.  ᐊᒻᒪᓗ ᒫᓐᓇ ᐊᕕᑕᐅᓂᐊᓕᕐᒪᑦ ᐊᒻᒪᓗ ᓇᓗᓇᐃᒃᑯᓯᖅᑕᐅᓪᓗᓂ ᐊᑲᐅᖏᓕᐅᕈᑎᒥᒃ.  ᐱᓕᕆᖃᑕᐅᔾᔮᙱᒻᒪᑦ ᐊᓂᕈᒪᓪᓗᓂᓗ. "],
             "initWidth": "[%num]510",
             "initHeight": "[%num]326",
             "useContentRect": {
@@ -3156,7 +3156,7 @@
                 }
             }, {
                 "Speaker": "Narrative",
-                "Line": "Lucy turns to you and starts yelling, asking why you called the police.  What right did you have to interfere in the first place? She says that you’ve only made it worse for her. And now she’ll surely be fired and labelled a troublemaker.  She won’t cooperate and wants to leave.  ",
+                "Line": "ᓘᓯ ᐃᓕᖕᓄᑦ ᓵᖦᓗᓂ ᖃᐃᒐᓛᓕᕐᓗᓂᓗ, ᐊᐱᕆᓪᓗᓂ ᖃᓄᐃᒻᒪᑦ ᐸᓖᓯᒃᑯᓐᓄᑦ ᐅᖃᓗᕐᐱᑦ.  ᑭᓱᒥᒃ ᐱᔪᓐᓇᐅᑎᖃᖅᐱᑦ ᐅᓚᕕᓴᐃᔭᕆᐊᖃᓚᐅᖅᐱᑦ ᓯᕗᓪᓕᕐᒥ?  ᐅᖃᖅᑐᓂ ᐱᐅᒍᓐᓃᑲᓐᓂᖅᓯᒪᓂᕋᑦᑐᓂᐅᒃ.  ᐊᒻᒪᓗ ᒫᓐᓇ ᐊᕕᑕᐅᓂᐊᓕᕐᒪᑦ ᐊᒻᒪᓗ ᓇᓗᓇᐃᒃᑯᓯᖅᑕᐅᓪᓗᓂ ᐊᑲᐅᖏᓕᐅᕈᑎᒥᒃ.  ᐱᓕᕆᖃᑕᐅᔾᔮᙱᒻᒪᑦ ᐊᓂᕈᒪᓪᓗᓂᓗ.  ",
                 "bubbleStyle": {},
                 "usePositionData": {
                     "windowPos": {
