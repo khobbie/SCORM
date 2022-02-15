@@ -1,0 +1,43 @@
+{
+    "General": {
+        "AssetLoading": "Loading...",
+        "IE9Warning": "<strong>Warning:</strong> Your browser is out of date and you will not be able to download the story you build using this tool. Please upgrade to the latest version or use a different browser.",
+        "SHflag": "Start Here",
+        "preLoadPoweredBy": "Powered by",
+        "altTextButtonLable": "View Transcript"
+    },
+    "Windows": {
+        "IE9SaveNotice": {
+            "BodyText": "Sorry, your browser is out of date and you will not be able to download the story you build using this tool. Please upgrade to the latest version or use a different browser.",
+            "ButtonLabels": {
+                "okButton": "Return"
+            }
+        },
+        "AltTextView": {
+            "ButtonLabels": {
+                "yesButton": "Get PDF",
+                "noButton": "Return"
+            }
+        },
+        "Narrative": {
+            "ButtonLabels": {
+                "nextButton": "ᑭᖑᓪᓕᖅ",
+                "prevButton": "ᑐᓄ",
+                "endSim": "Replay Storyoo",
+                "startSim": "Begin Story",
+                "startScene": "Continue Story"
+            }
+        }
+    },
+    "Acessibility": {
+        "SceneDescription": {
+            "Scene": "Scene",
+            "singleCharDesc": "There is # character in this scene.",
+            "MultiCharDesc": "There are # characters in this scene.",
+            "and": "and",
+            "nothing": "There are no interactive objects in this scene.",
+            "flag": "A flag indicates that you need to click on # to begin the story.",
+            "noflag": "There is a window open over the scene."
+        }
+    }
+}

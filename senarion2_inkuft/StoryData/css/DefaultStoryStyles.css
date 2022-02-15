@@ -1,0 +1,22 @@
+.NavArrow {
+ width:	24px;
+ height: 24px;
+ padding: 0px;
+ background-image: url(../lib/Buttons/BubbleNav.png);	
+}
+
+#NavArrCont{
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#NavBckArrow {
+ background-position: -2px -2px;
+ float:left;
+}
+
+#NavNxtArrow {
+ background-position: -28px -28px;
+ float:right;
+}
