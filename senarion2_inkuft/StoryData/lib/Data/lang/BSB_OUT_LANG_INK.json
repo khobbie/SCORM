@@ -2,7 +2,7 @@
     "General": {
         "AssetLoading": "Loading...",
         "IE9Warning": "<strong>Warning:</strong> Your browser is out of date and you will not be able to download the story you build using this tool. Please upgrade to the latest version or use a different browser.",
-        "SHflag": "Start Hereoo",
+        "SHflag": "ᐅᕙᓂ ᐱᒋᐊᕐᓗᑎᑦ",
         "preLoadPoweredBy": "Powered by",
         "altTextButtonLable": "View Transcript"
     },
@@ -23,7 +23,7 @@
             "ButtonLabels": {
                 "nextButton": "ᑭᖑᓪᓕᖅ",
                 "prevButton": "ᑐᓄ",
-                "endSim": "Replay Storyoo",
+                "endSim": "ᐅᓂᒃᑳᒧᑦ ᐅᑎᕐᓗᓂ",
                 "startSim": "Begin Story",
                 "startScene": "Continue Story"
             }
