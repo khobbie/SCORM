@@ -1136,7 +1136,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "ᐃᕝᕕᑦ  ᓵᓄᑦ ᐅᑎᒋᑦ ",
+                "InitText": "ᐃᕝᕕᑦ  ᓵᓐᓄᑦ ᐅᑎᒋᑦ ",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -1258,7 +1258,7 @@
             "x": "[%num]77",
             "y": "[%num]250"
         },
-        "useInitPopulation": ["<strong>ᐃᕝᕕᑦ</strong><br/>ᐊᐃᖓᐃ ᓘᓯ. ᓱᒐᕕᑦ? ᑭᓱᒥᓪᓕ ᐊᑲᐅᒃᓴᙱᓚᑎᑦ?"],
+        "useInitPopulation": ["<strong>ᐃᕝᕕᑦ</strong><br/>ᐊᐃᖓᐃᑦ ᓘᓯ. ᓱᒐᕕᑦ? ᑭᓱᒥᓪᓕ ᐊᑲᐅᒃᓴᙱᓚᑎᑦ?"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1384,7 +1384,7 @@
             "x": "[%num]751",
             "y": "[%num]412"
         },
-        "useInitPopulation": ["<strong>ᔮᓱᐊ</strong><br/> ᔩᔅ − ᕿᐊᔪᖅ. ᓯᖓᐃᒍᕕᑦ, ᐊᖏᕐᕋᖅᓯᒪᓪᓗᐊᖅᑐᑎᑦ. "],
+        "useInitPopulation": ["<strong>ᔮᓱᐊ</strong><br/> ᐅᐊᑲᓪᓚᖔ − ᕿᐊᔪᖅ. ᓯᖓᐃᒍᕕᑦ, ᐊᖏᕐᕋᖅᓯᒪᓪᓗᐊᖅᑐᑎᑦ. "],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1510,7 +1510,7 @@
             "x": "[%num]751",
             "y": "[%num]412"
         },
-        "useInitPopulation": ["<strong>ᔮᓱᐊ</strong><br/> ᐊᓱ. ᓂᑦᔮᓗᐊᕐᓇᒃ − ᐃᖅᑲᓇᐃᔭᕆᐊᖃᕋᒪ."],
+        "useInitPopulation": ["<strong>ᔮᓱᐊ</strong><br/> ᐊᓱ. ᓂᐱᖃᓗᐊᕐᓇᒃ − ᐃᖅᑲᓇᐃᔭᕆᐊᖃᕋᒪ."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1801,7 +1801,7 @@
             "x": "[%num]346",
             "y": "[%num]359"
         },
-        "useInitPopulation": ["<strong>ᐊᐅᓚᑦᑎᔨ</strong><br/> ᐊᑲᐅᓂᖅᓴᐅᓇᔭᓚᐅᖅᑐᒃᓴᐅᔪᖅ, ᐃᓚᐅᓪᓚᑦᑖᙱᖦᓗᓂ, ᐃᖅᑲᐃᓯᓗᒍ ᓘᓯ ᐅᖄᓚᖃᑦᑕᖁᓪᓗᒍᓘᓐᓃᑦ ᐃᖅᑲᓇᐃᔭᖅᑎᓄᑦ ᐃᑲᔪᖅᑕᐅᕙᖕᓂᕐᒧᑦ ᐱᓕᕆᐊᖑᕙᒃᑐᒥᒃ, ᑎᓕᐅᕐᓗᒍᓘᓐᓃᑦ ᐅᖃᖃᑎᖃᖁᓗᒍ ᐃᖅᑲᓇᐃᔭᖅᑐᓕᕆᔨᒃᑯᓐᓂᒃ."],
+        "useInitPopulation": ["<strong>ᐊᐅᓚᑦᑎᔨ</strong><br/> ᐊᑲᐅᓂᖅᓴᐅᓇᔭᓚᐅᖅᑐᒃᓴᐅᔪᖅ, ᐃᓚᐅᓪᓚᑦᑖᙱᓪᓗᓂ, ᐃᖅᖅᑲᐃᑎᓗᒍ ᓘᓯ ᐅᖄᓚᖃᑦᑕᖁᓪᓗᒍᓘᓐᓃᑦ ᐃᖅᑲᓇᐃᔭᖅᑎᓄᑦ ᐃᑲᔪᖅᑕᐅᕙᖕᓂᕐᒧᑦ ᐱᓕᕆᐊᖑᕙᒃᑐᒥᒃ, ᑎᓕᐅᕐᓗᒍᓘᓐᓃᑦ ᐅᖃᖃᑎᖃᖁᓗᒍ ᐃᖅᑲᓇᐃᔭᖅᑐᓕᕆᔨᒃᑯᓐᓂᒃ."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2137,7 +2137,7 @@
             "x": "[%num]441",
             "y": "[%num]392"
         },
-        "useInitPopulation": ["<strong>ᓘᓯ</strong><br/> ᖃᓄᐃᙱᑦᑐᖅ. ᑲᑕᓚᐅᖅᑐᖓ."],
+        "useInitPopulation": ["<strong>ᓘᓯ</strong><br/> ᖃᓄᐃᙱᑦᑐᖅ. ᐃᔪᒃᑲᓚᐅᕐᑐᖓ."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2712,7 +2712,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "ᖃᓄᐃᖅᑰᔨᙱᖦᓗᓂ, ᑭᓯᐊᓂ ᖁᖓᒐᔪᙱᖦᓗᓂ. ",
+                "InitText": "ᖃᓄᐃᖅᑰᔨᙱᓪᓗᓂ, ᑭᓯᐊᓂ ᖁᖓᒐᔪᙱᓪᓗᓂ. ",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -3305,7 +3305,7 @@
                 }, {
                     "buttonText": "Option 2"
                 }],
-                "EndWindowText": "ᐃᕝᕕᑦ  ᓵᓄᑦ ᐅᑎᒋᑦ "
+                "EndWindowText": "ᐃᕝᕕᑦ  ᓵᓐᓄᑦ ᐅᑎᒋᑦ "
             },
             "StageData": {
                 "compsOnStage": [{
@@ -3395,7 +3395,7 @@
             "NarrativesData": [{
                 "Speaker": "ᐃᕝᕕᑦ",
                 "comp_id": "comp_10",
-                "Line": "ᐊᐃᖓᐃ ᓘᓯ. ᓱᒐᕕᑦ? ᑭᓱᒥᓪᓕ ᐊᑲᐅᒃᓴᙱᓚᑎᑦ?",
+                "Line": "ᐊᐃᖓᐃᑦ ᓘᓯ. ᓱᒐᕕᑦ? ᑭᓱᒥᓪᓕ ᐊᑲᐅᒃᓴᙱᓚᑎᑦ?",
                 "usePositionData": {
                     "bubblePos": {
                         "x": 74.66666666666669,
@@ -3431,7 +3431,7 @@
             }, {
                 "Speaker": "ᔮᓱᐊ",
                 "comp_id": "comp_7",
-                "Line": "ᔩᔅ − ᕿᐊᔪᖅ. ᓯᖓᐃᒍᕕᑦ, ᐊᖏᕐᕋᖅᓯᒪᓪᓗᐊᖅᑐᑎᑦ.",
+                "Line": "ᐅᐊᑲᓪᓚᖔ − ᕿᐊᔪᖅ. ᓯᖓᐃᒍᕕᑦ, ᐊᖏᕐᕋᖅᓯᒪᓪᓗᐊᖅᑐᑎᑦ.",
                 "bubbleStyle": {
                     "type": "say"
                 },
@@ -3467,7 +3467,7 @@
             }, {
                 "Speaker": "ᔮᓱᐊ",
                 "comp_id": "comp_7",
-                "Line": "ᐊᓱ. ᓂᑦᔮᓗᐊᕐᓇᒃ − ᐃᖅᑲᓇᐃᔭᕆᐊᖃᕋᒪ.",
+                "Line": "ᐊᓱ. ᓂᐱᖃᓗᐊᕐᓇᒃ − ᐃᖅᑲᓇᐃᔭᕆᐊᖃᕋᒪ.",
                 "usePositionData": {
                     "bubblePos": {
                         "x": 296.33333333333337,
@@ -3683,7 +3683,7 @@
             "NarrativesData": [{
                 "Speaker": "ᐊᐅᓚᑦᑎᔨ",
                 "comp_id": "comp_14",
-                "Line": "ᐊᑲᐅᓂᖅᓴᐅᓇᔭᓚᐅᖅᑐᒃᓴᐅᔪᖅ, ᐃᓚᐅᓪᓚᑦᑖᙱᖦᓗᓂ, ᐃᖅᑲᐃᓯᓗᒍ ᓘᓯ ᐅᖄᓚᖃᑦᑕᖁᓪᓗᒍᓘᓐᓃᑦ ᐃᖅᑲᓇᐃᔭᖅᑎᓄᑦ ᐃᑲᔪᖅᑕᐅᕙᖕᓂᕐᒧᑦ ᐱᓕᕆᐊᖑᕙᒃᑐᒥᒃ, ᑎᓕᐅᕐᓗᒍᓘᓐᓃᑦ ᐅᖃᖃᑎᖃᖁᓗᒍ ᐃᖅᑲᓇᐃᔭᖅᑐᓕᕆᔨᒃᑯᓐᓂᒃ.",
+                "Line": "ᐊᑲᐅᓂᖅᓴᐅᓇᔭᓚᐅᖅᑐᒃᓴᐅᔪᖅ, ᐃᓚᐅᓪᓚᑦᑖᙱᓪᓗᓂ, ᐃᖅᖅᑲᐃᑎᓗᒍ ᓘᓯ ᐅᖄᓚᖃᑦᑕᖁᓪᓗᒍᓘᓐᓃᑦ ᐃᖅᑲᓇᐃᔭᖅᑎᓄᑦ ᐃᑲᔪᖅᑕᐅᕙᖕᓂᕐᒧᑦ ᐱᓕᕆᐊᖑᕙᒃᑐᒥᒃ, ᑎᓕᐅᕐᓗᒍᓘᓐᓃᑦ ᐅᖃᖃᑎᖃᖁᓗᒍ ᐃᖅᑲᓇᐃᔭᖅᑐᓕᕆᔨᒃᑯᓐᓂᒃ.",
                 "usePositionData": {
                     "bubblePos": {
                         "x": 382,
@@ -3813,7 +3813,7 @@
             }, {
                 "Speaker": "ᓘᓯ",
                 "comp_id": "comp_12",
-                "Line": "ᖃᓄᐃᙱᑦᑐᖅ. ᑲᑕᓚᐅᖅᑐᖓ.",
+                "Line": "ᖃᓄᐃᙱᑦᑐᖅ. ᐃᔪᒃᑲᓚᐅᕐᑐᖓ.",
                 "bubbleStyle": {
                     "type": "say"
                 },
@@ -4101,7 +4101,7 @@
                 }, {
                     "buttonText": "Option 2"
                 }],
-                "EndWindowText": "ᖃᓄᐃᖅᑰᔨᙱᖦᓗᓂ, ᑭᓯᐊᓂ ᖁᖓᒐᔪᙱᖦᓗᓂ. "
+                "EndWindowText": "ᖃᓄᐃᖅᑰᔨᙱᓪᓗᓂ, ᑭᓯᐊᓂ ᖁᖓᒐᔪᙱᓪᓗᓂ. "
             },
             "StageData": {
                 "compsOnStage": []
