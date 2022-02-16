@@ -1025,7 +1025,7 @@
                         "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                         "radius": "[%num][%getGlobal('generalButtonRadius')]"
                     },
-                    "InitText": "ᐅᓪᓗᕈᒻᒥᓴᕐᓇᒥ ᐱᓗᑎᑦ, ᓄᖅᑲᖓᓗᑎᑦ ᐅᓪᓗᓕᒫᖅ.",
+                    "InitText": "ᐅᓪᓗᕈᒻᒥᓴᕐᓇᒥ ᐱᓗᑎᑦ, ᓄᖅᑲᖓᓗᑎᑦ ᐅᓪᓗᓕᒫᖅ.ᖅ.",
                     "initHeight": "[%num]48",
                     "initWidth": "[%num]450",
                     "InWinLockOverride": "[%true]",

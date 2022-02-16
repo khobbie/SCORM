@@ -20,8 +20,8 @@
    },
 
   "GlobalSpeechBubbleOptions": {
-    "langNextButton": "Next",
-    "langPrevButton": "Back",
+    "langNextButton": "ᑭᖑᓪᓕᖅ",
+    "langPrevButton": "ᑐᓄ",
     "langNextButtonContext": "Go to next speech bubble",
     "langPrevButtonContext": "Go to previous speech bubble",
     "langDefaultNavText": "Click to proceed"
