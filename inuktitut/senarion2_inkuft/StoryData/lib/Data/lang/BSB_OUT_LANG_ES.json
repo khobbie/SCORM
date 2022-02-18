@@ -1,0 +1,43 @@
+{
+   "General": {
+      "AssetLoading": "Cargando…",
+      "IE9Warning": "<strong>Advertencia:</strong> El navegador está desactualizado y no podrá descargar la historia que cree con esta herramienta. Obtenga la versión más reciente o utilice un navegador distinto.",
+      "SHflag":  "Empezar aquí",
+      "preLoadPoweredBy": "Energizado por",
+      "altTextButtonLable": "Ver transcripción"
+   },
+   "Windows": {
+      "IE9SaveNotice": {
+        "BodyText": "Lo sentimos. El navegador está desactualizado y no podrá descargar la historia que cree con esta herramienta. Obtenga la versión más reciente o utilice un navegador distinto.",
+        "ButtonLabels": {
+          "okButton": "Volve"
+        }
+      },
+      "AltTextView": {
+         "ButtonLabels": {
+            "yesButton": "Obtenga PDF",
+            "noButton": "Volve"
+         }
+      },
+      "Narrative": {
+         "ButtonLabels": {
+            "nextButton": "Siguiente",
+            "prevButton": "Volver",
+            "endSim": "Volver a reproducir la historia",
+            "startSim": "Comenzar historia",
+            "startScene": "Continuar historia"
+         }
+      }
+   },
+   "Acessibility": {
+      "SceneDescription":{
+        "Scene": "Escena",
+        "singleCharDesc": "Hay # personaje en esta escena.",
+        "MultiCharDesc": "Hay # personajes en esta escena.",
+        "and": "y",
+        "nothing": "No hay objetos interactivos en esta escena.",
+        "flag": "Con el indicador se señala que debe hacer clic en # para comenzar la historia.",
+        "noflag": "Hay una ventana abierta en la escena."
+      }
+   }
+}

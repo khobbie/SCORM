@@ -1,0 +1,299 @@
+﻿<script type="text/javascript" src="https://s3.amazonaws.com/prod-gbl-s3/shared/gbl/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/prod-gbl-s3/shared/gbl/js/jquery-ui.js"></script>
+<script src="https://s3.amazonaws.com/prod-gbl-s3/shared/gbl/js/valence/global-superagent-d2l-session-auth.js" type="text/javascript"></script>
+<script src="https://s3.amazonaws.com/prod-gbl-s3/shared/gbl/js/valence/csval-lib.js" type="text/javascript"></script>
+
+<style type="text/css">
+    body{
+        margin: 0px;
+    }
+
+    #content {
+        text-align: center;
+        position: absolute;
+        text-align: center;
+        background-image: url('https://s3.amazonaws.com/prod-gbl-s3/shared/gbl/shell/blue_bg.jpg');
+        height: 580px;
+        top: 0px;
+        width: 100%;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    .mapCloning{
+        position:relative;
+        top: -30px;
+        padding:15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin:0 auto;
+        color:black;
+        font-size: 14px;
+        width: 325px;
+        min-height:76px;
+        box-sizing: border-box;
+        background-color:white;
+        border:3px solid #559ECA;
+    }
+    .cloneTxtBox{
+        position:absolute;
+        top: 168px;
+        left:50%;
+        margin-left:-175px;
+        padding:15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color:white;
+        font-size: 14px;
+        width: 350px;
+        min-height:76px;
+        box-sizing: border-box;
+    }
+    .cloneBtn{
+        padding:15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-bottom:10px;
+        color:black;
+        font-size: 14px;
+        min-width:194px;
+        min-height:35px;
+        box-sizing: border-box;
+        background-color:#559ECA;
+        border:3px solid transparent;
+        cursor: pointer;
+
+    }
+    .cloneBtn:hover{
+        border:3px solid white;
+    }
+    .returnBtn{
+        padding:15px;
+        cursor: pointer;
+        color:black;
+        font-size: 14px;
+        min-width:273px;
+        min-height:76px;
+        box-sizing: border-box;
+        background-color:#559ECA;
+        border:3px solid transparent;
+    }
+    .returnBtn:hover{
+        border:3px solid white;
+    }
+    .spinner{
+        width:24px;
+        height:24px;
+        background-image:url('https://s3.amazonaws.com/prod-gbl-s3/shared/gbl/shell/spinner_2_blue.gif');
+        margin: 0 auto;
+        margin-top: 8px;
+    }
+
+    .ui_holder{
+        width:500px;
+        height:300px;
+        text-align: center;
+        position: relative;
+        top:50%;
+        left:50%;
+        margin-left:-250px;
+        margin-top: -35px;
+    }
+
+</style>
+
+
+
+<script type="text/javascript">// <![CDATA[
+var ouID = "";
+var mapKey = '4B0F8F20-0CF9-2829-DDC7-EA33B802827A';
+var mapId = '0c2ec37f-7169-3263-c0c8-bf92b63efeab';
+var activityID = 'a93d366a4b0bd8c0aaaef592c37bf1176c68901d';
+var activityKey = '3f0e9738-d0fa-ac06-055b-b99b31e95dbf';
+var activitySrc = 'https://s3.amazonaws.com/prod-gbl-s3/shared/gbl/gamificationActivities/draganddrop/dragNdrop.html';
+var appServerHost = 'gbl.brightspace.com';
+var fileStore = 'https://s3.amazonaws.com/prod-gbl-s3';
+var actJSON = '###ACTIVITYJSON###';
+var version = 1.0;
+
+var org_key = "916871628";
+var appID = 'Szffz3EmIZ-VmfpQch0hnw';
+var appKey = 'Glw0XcMvdzKuiTLX_5Yv2A';
+var jsonObj;
+var userid;
+var url = window.location.href;
+var partsarr = url.split("/");
+var host = partsarr[0] + "//" + partsarr[2];
+var port = partsarr[0] == 'https:' ? 443 : 80;
+var orginfo_url = '/d2l/api/lp/1.0/organization/info';
+var path = "";
+var orgId = 1;
+var pageLang = window.top.document.getElementsByTagName('html')[0].getAttribute('lang');
+var mapURLs = "";
+var arr = window.top.location.href.split("/");
+var topicid = arr[8];
+console.log(topicid);
+var ou = location.search.match(new RegExp("[\?\&]ou=([^\&]*)(\&?)","i"));
+var orgID = ou ? ou[1] : ou
+
+pubsubz.subscribe('csval/get_whoami', function () {
+
+    orgId = CSVal.context.ouID;
+    userid = CSVal.user.Identifier;
+
+    $.ajax({
+        type: 'GET',
+        url: 'https://gbl.brightspace.com/public/_ws/activities/activity',
+        async: false,
+        jsonpCallback: 'jsonCallback',
+        contentType: "application/json",
+        dataType: 'jsonp',
+        data: {
+            "id": activityID,
+            "activityKey": activityKey,
+            "mapKey": mapKey,
+            "userid": userid,
+            "orgId" : orgId,
+            "orgID":orgID,
+            "version":version,
+            "org_key":org_key
+        },
+        success: function (json) {
+
+            console.log(json);
+
+            if(json.success == false){
+                //should clone
+                if(json.is_cloning == undefined){
+                    if(json.should_clone == true){
+
+                        //begin clone
+                        $('#content').html('<div class="cloneTxtBox">This map has been copied into a new course. Would you like to clone the master map to this course?</div><div class="ui_holder"><button class="cloneBtn" onclick="cloneMap()">Clone Map To This Course.</button>' +
+                            '<br/><a target="_parent" href="' +host + '/d2l/le/content/ ' + orgID + '/Home" style="padding-top:10px;color:white;font-size:12px;"> No Thanks. </a></div>');
+                        cloneMapKey = mapId;
+
+                    }
+                }else{
+                    if(json.is_cloning == true){
+                        alert('clone in progress');
+                    }
+                }
+            }else{
+                jsonObj = json;
+                path = json.path;
+                ouID = json.ouID;
+
+                getMapURLs();
+                createActivity();
+
+            }
+        },
+        error: function (XMLHttpRequest, textStatus, errorThrown) {
+            console.log("Error: " + XMLHttpRequest + " - " + textStatus + " - " + errorThrown);
+        }
+    });
+});
+
+CSVal.init();
+
+function createActivity(){
+    if(mapURLs != ""){
+        var conf = [
+            mapKey,
+            "Case Management ",
+            "Culturally Relevant Case Management",
+            "Match each item as being culturally-relevant case management, or not.",
+            path + "activityAssets/0c2ec37f-7169-3263-c0c8-bf92b63efeab/images/3f0e9738-d0fa-ac06-055b-b99b31e95dbf--avatar.png",
+            {},
+            userid,
+            activityID,
+            "3f0e9738-d0fa-ac06-055b-b99b31e95dbf",
+            path + "activityAssets/a93d366a4b0bd8c0aaaef592c37bf1176c68901d",
+            appServerHost,
+            pageLang,
+            "916871628",
+            orgId,
+            host
+        ];
+
+        conf = btoa(JSON.stringify(conf));
+
+
+        $('#content').css("background-image", "none");
+
+        if (jsonObj.locked == 0  ) {
+            $('#content').append('<div style="position:relative; width:100%; max-width: 900px; height:0; padding-bottom:67.25%;"><iframe scrolling="no" src="'+activitySrc+'?c='+conf + '" style="margin: 0 auto; border: none; overflow: hidden; padding: 0; border: 0; position: absolute; left: 0; width: 100%; height: 100%"></iframe></div>');
+        } else  {
+            $('#content').append('<p>Playing this activity requires completion of criteria in a previous activity. Please return to the <a href="'+mapPath+'" target="_top">map</a></p>');
+        }
+
+    }else{
+        setTimeout(function(){createActivity(); }, 50);
+    }
+}
+
+function cloneMap(){
+    $('#content').html('<div class="ui_holder"><div class="mapCloning">Map is currently cloning. Please Wait......<div class="spinner"></div></div></div> ');
+
+    if(cloneMapKey != ""){
+        $.ajax({
+                type: 'GET',
+                url: 'https://gbl.brightspace.com/public/_ws/clone',
+                async: false,
+                jsonpCallback: 'jsonCallback',
+                contentType: "application/json",
+                dataType: 'jsonp',
+                data: {
+                    "cloneMapKey": cloneMapKey,
+                    "orgID":orgID,
+                    "topicid":topicid,
+                    "lang":"en-us",
+                    "org_key":"916871628",
+                    "org_string":"7bqRJgbiAe2QzCLYU4K2ZvlKoQ0tztOjpNFsll55HTA="
+                },
+                success: function (json) {
+
+                    console.log(json);
+                    if(json.is_cloning != undefined){
+                        $('#content').html('<div class="ui_holder"><div class="mapCloning">Map is currently cloning. Please Wait......<div class="spinner"></div></div></div> ');
+                    }else if(json.success == true){
+                        $('#content').html('<div class="ui_holder"><a target="_parent" class="cloneBtn" href="' + json.url + '">Map clone successful. Click here to navigate to cloned map.</a></div>');
+
+                    }
+
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    console.log("Error: " + XMLHttpRequest + " - " + textStatus + " - " + errorThrown);
+                }
+            });
+    }
+}
+
+function getInitialData() {
+    return ({
+        "mapKey": mapKey,
+        "name": "Case Management ",
+        "headline":"Culturally Relevant Case Management",
+        "bodyText":"Match each item as being culturally-relevant case management, or not.",
+        "characterImage": path + "activityAssets/0c2ec37f-7169-3263-c0c8-bf92b63efeab/images/3f0e9738-d0fa-ac06-055b-b99b31e95dbf--avatar.png",
+        "json": jsonObj,
+        "userid": userid,
+        "activityID": activityID,
+        "activityKey":"3f0e9738-d0fa-ac06-055b-b99b31e95dbf",
+        "assetPath": path + "activityAssets/a93d366a4b0bd8c0aaaef592c37bf1176c68901d",
+        "appServerHost":appServerHost,
+        "lang_type": pageLang,
+        "org_key":"916871628",
+        "orgId" : orgId
+    });
+}
+
+function getMapURLs(){
+        var map_urls = document.createElement('script');
+        map_urls.src = path + "activityAssets/0c2ec37f-7169-3263-c0c8-bf92b63efeab/4B0F8F20-0CF9-2829-DDC7-EA33B802827A_map_urls1561642372.js";
+        map_urls.type = "text/javascript";
+        document.head.appendChild(map_urls)
+}
+
+// ]]></script>
+<div id="content"></div>
+
