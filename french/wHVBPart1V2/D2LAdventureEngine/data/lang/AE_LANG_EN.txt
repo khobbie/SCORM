@@ -1,0 +1,48 @@
+{
+  "preloading":{
+    "loadingMessage":"Loading...",
+    "loadPhaseMessage": "now preloading Phase",
+    "jsonLoadMessage": "JSON Data Received",
+    "audioSkipNotice": "skipping audio load phase as requested in ignoreAudio option",
+    "mobileLoadedMessage" : "Tap to Continue",
+    "loadedMessage": "Click, or press space, to continue"
+  },
+  
+  "uiDefaults" : {
+    "NoHelpText": "The Help Text was not set in the editor, if you are not the author please inform the them to add help text explaining how to use this application",
+    "audioContext":"Audio Settings",
+    "muteContext":"Mute",
+    "helpContext":"Help",
+    "window_yes": "Yes",
+    "window_no": "No",
+    "window_ok": "OK",
+    "windowCancel": "Cancel"
+   },
+
+  "GlobalSpeechBubbleOptions": {
+    "langNextButton": "Next",
+    "langPrevButton": "Back",
+    "langNextButtonContext": "Go to next speech bubble",
+    "langPrevButtonContext": "Go to previous speech bubble",
+    "langDefaultNavText": "Click to proceed"
+  },
+
+  "Quiz_Options": {
+    "useDefaultPassMessage": "Congratulations! You have passed the quiz. Press the OK button below to proceed.",
+    "useDefaultFailMessage": "You have not achieved a high enough score to pass this quiz. Please review the material and try again. Press the OK button below to proceed.",
+    "quizQuestion": "Question",
+    "langOf": "of",
+    "langReport": "Your final score was:",
+    "scrollWarningText": "<p><strong>There's more!</strong><br> scroll down to see the rest of this question</p>"
+  },
+
+  "ScreenReader": {
+    "disabledWarning": "Screen Reader Warning. This activity is not set up for screen reader accessibility. Please, request an alternative activity from your administrator or instructor",
+    "stateLable": "State:",
+    "sceneLable": "Scene:",
+    "sceneDescriptionLable": "Scene Description:",
+    "windowContent": "window content:",
+    "speechBubble": "Speech Bubble:"
+  }
+  
+}
