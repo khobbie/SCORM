@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-
     <title>WHVB - Part 2 v2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
@@ -10,21 +9,33 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function(event) {
-            window.D2LAdventureEngine.BeginAdventure("AE_Canvas", "D2LAdventureEngine", "StoryData/data/storyData.json", "WHVB - Part 2 v2", {
-                disableAccessCursor: true,
-                screenReaderAccessible: true,
-                useLanguageCode: "FR"
-            })
+            window.D2LAdventureEngine.BeginAdventure(
+                "AE_Canvas",
+                "D2LAdventureEngine",
+                "StoryData/data/storyData_1.txt",
+                "WHVB - Part 2 v2", {
+                    disableAccessCursor: true,
+                    screenReaderAccessible: true,
+                    useLanguageCode: "FR",
+                }
+            );
         });
     </script>
 </head>
 
 <body>
     <div>
-        <h1 style="position: absolute; left: -10000px; top: auto;width: 1px; height: 1px; overflow: hidden;">
+        <h1 style="
+          position: absolute;
+          left: -10000px;
+          top: auto;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+        ">
             WHVB - Part 2 v2
         </h1>
-        <canvas draggable='false' id="AE_Canvas" class="AdventureCanvas selctionLock" width="1280" height="800" aria-hidden='true'></canvas>
+        <canvas draggable="false" id="AE_Canvas" class="AdventureCanvas selctionLock" width="1280" height="800" aria-hidden="true"></canvas>
     </div>
 </body>
 
