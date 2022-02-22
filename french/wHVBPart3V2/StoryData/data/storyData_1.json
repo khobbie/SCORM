@@ -992,7 +992,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "écrire le rapport et aller manger.",
+                "InitText": "Écrire le rapport et aller manger.",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -2243,7 +2243,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "You have completed Workplace Harassment and Violence – Roles and Responsibilities Part 3/3. <br><br>Please click the Next arrow at the bottom of the screen to continue.",
+                "InitText": "Félicitations! <br> Vous avez terminé la Partie 3 / 3 sur la violence et le harcèlement en milieu de travail– Rôles et responsabilités. <br> <br> Veuillez cliquer sur Suivant au bas de l’écran pour continuer. ",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",

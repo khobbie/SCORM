@@ -1,43 +1,43 @@
 {
-   "General": {
-      "AssetLoading": "Chargement…...",
-      "IE9Warning": "<strong>Avertissement :</strong> Votre navigateur n’est pas à jour, et vous ne pourrez pas télécharger l’histoire que vous avez créée à l’aide de cet outil. Veuillez le mettre à jour ou utiliser un autre navigateur.",
-      "SHflag": "Commencer ici",
-      "preLoadPoweredBy": "Alimenté par",
-      "altTextButtonLable": "Voir la transcription"
-   },
-   "Windows": {
-      "IE9SaveNotice": {
-         "BodyText": "Votre navigateur n’est pas à jour, et vous ne pourrez pas télécharger l’histoire que vous avez créée à l’aide de cet outil. Veuillez le mettre à jour ou utiliser un autre navigateur.",
-         "ButtonLabels": {
-            "okButton": "Retour"
-         }
-      },
-      "AltTextView": {
-         "ButtonLabels": {
-            "yesButton": "Obtenir le PDF",
-            "noButton": "Retour"
-         }
-      },
-      "Narrative": {
-         "ButtonLabels": {
-        "nextButton": "Suivant",
-        "prevButton": "Retour",
-        "endSim": "Rejouer l’histoire",
-        "startSim": "Commencer l’histoire",
-        "startScene": "Continuer l’histoire"
-         }
-      }
-   },
-   "Acessibility": {
-      "SceneDescription":{
-         "Scene": "Scène",
-         "singleCharDesc": "Il y a # personnage dans cette scène.",
-         "MultiCharDesc": "Il y a # personnages dans cette scène.",
-         "and": "et",
-         "nothing": "Il n’y a pas d’objets interactifs dans cette scène.",
-         "flag": "Le drapeau indique que vous devez cliquer sur # pour commencer l’histoire.",
-         "noflag": "Une fenêtre est ouverte au-dessus de la scène."
-      }
-   }
+    "General": {
+        "AssetLoading": "Chargement…...",
+        "IE9Warning": "<strong>Avertissement :</strong> Votre navigateur n’est pas à jour, et vous ne pourrez pas télécharger l’histoire que vous avez créée à l’aide de cet outil. Veuillez le mettre à jour ou utiliser un autre navigateur.",
+        "SHflag": "Commencer ici",
+        "preLoadPoweredBy": "Alimenté par",
+        "altTextButtonLable": "Voir la transcription"
+    },
+    "Windows": {
+        "IE9SaveNotice": {
+            "BodyText": "Votre navigateur n’est pas à jour, et vous ne pourrez pas télécharger l’histoire que vous avez créée à l’aide de cet outil. Veuillez le mettre à jour ou utiliser un autre navigateur.",
+            "ButtonLabels": {
+                "okButton": "Retour"
+            }
+        },
+        "AltTextView": {
+            "ButtonLabels": {
+                "yesButton": "Obtenir le PDF",
+                "noButton": "Retour"
+            }
+        },
+        "Narrative": {
+            "ButtonLabels": {
+                "nextButton": "Suivant",
+                "prevButton": "Retour",
+                "endSim": "Rejouer la scène",
+                "startSim": "Commencer l’histoire",
+                "startScene": "Continuer l’histoire"
+            }
+        }
+    },
+    "Acessibility": {
+        "SceneDescription": {
+            "Scene": "Scène",
+            "singleCharDesc": "Il y a # personnage dans cette scène.",
+            "MultiCharDesc": "Il y a # personnages dans cette scène.",
+            "and": "et",
+            "nothing": "Il n’y a pas d’objets interactifs dans cette scène.",
+            "flag": "Le drapeau indique que vous devez cliquer sur # pour commencer l’histoire.",
+            "noflag": "Une fenêtre est ouverte au-dessus de la scène."
+        }
+    }
 }
