@@ -2039,7 +2039,7 @@
             "x": "[%num]329",
             "y": "[%num]349"
         },
-        "useInitPopulation": ["<strong>Lucy 2</strong><br/> Non – Je n'ai rien de cassé. Je me suis cognée contre le mur quand il m'a poussé.<br>  <br>Je suis nerveuse et j’ai peur que ça affecte ma santé et celle du bébé.<br>"],
+        "useInitPopulation": ["<strong>Lucy</strong><br/> Non – Je n'ai rien de cassé. Je me suis cognée contre le mur quand il m'a poussé.<br>  <br>Je suis nerveuse et j’ai peur que ça affecte ma santé et celle du bébé.<br>"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2291,7 +2291,7 @@
             "x": "[%num]355",
             "y": "[%num]272"
         },
-        "useInitPopulation": ["<strong>Lucy 2</strong><br/> Oui. Il ne sait plus ce qu’il fait."],
+        "useInitPopulation": ["<strong>Lucy</strong><br/> Oui. Il ne sait plus ce qu’il fait."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
