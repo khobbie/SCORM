@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="ii2qHsOubJN9I" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="srvRAPgspSmJX" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
 	<metadata>
 		<schema>ADL SCORM</schema>
 		<schemaversion>1.2</schemaversion>
 		<lom:lom>
 			<lom:general>
 				<lom:title>
-					<lom:langstring>Lucy_senario_1</lom:langstring>
+					<lom:langstring>Lucy_senario_one</lom:langstring>
 				</lom:title>
 			</lom:general>
 			<lom:educational>
@@ -16,12 +16,12 @@
 			</lom:educational>
 		</lom:lom>
 	</metadata>
-	<organizations default="lucy_senario_1_organization">
-		<organization identifier="lucy_senario_1_organization">
+	<organizations default="lucy_senario_one_organization">
+		<organization identifier="lucy_senario_one_organization">
 
-			<title>Lucy_senario_1</title>
+			<title>Lucy_senario_one</title>
 			<item identifier="E4DC02A6-D377-42AD-9940-B440AAD9FAD9" identifierref="resource">
-				<title>Untitled Simulation</title>
+				<title>Lucy_senario_1</title>
 			</item>
 		</organization>
 	</organizations>
@@ -39,10 +39,6 @@
 <file href="res/data/img10.png"/>
 <file href="res/data/img11.png"/>
 <file href="res/data/img12.png"/>
-<file href="res/data/img13.png"/>
-<file href="res/data/img14.png"/>
-<file href="res/data/img15.png"/>
-<file href="res/data/img16.png"/>
 <file href="res/data/img2.png"/>
 <file href="res/data/img3.png"/>
 <file href="res/data/img4.png"/>
