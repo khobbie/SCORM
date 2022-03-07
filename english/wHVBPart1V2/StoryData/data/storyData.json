@@ -130,16 +130,16 @@
             "defaultAssetLocation": "StoryData/lib/Sprites",
             "data": [{
                 "AssetID": "You",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
                 "spriteFrameData": [
-                    [0, 0, 240, 320]
+                    [0, 5, 230, 500]
                 ]
             }, {
                 "AssetID": "Male smili",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -148,7 +148,7 @@
                 ]
             }, {
                 "AssetID": "Female ang",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -157,7 +157,7 @@
                 ]
             }, {
                 "AssetID": "Lucy",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -166,7 +166,7 @@
                 ]
             }, {
                 "AssetID": "Sad Lucy",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -175,7 +175,7 @@
                 ]
             }, {
                 "AssetID": "Manager le",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -184,7 +184,7 @@
                 ]
             }, {
                 "AssetID": "Manager",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -318,7 +318,7 @@
             "color": "#FFEE1A",
             "strokeWidth": "[%num]0"
         },
-        "useInitPopulation": ["Bienvenue à notre atelier d'intégration obligatoire. Nous sommes heureux que vous soyez tous de nouveaux employés au sein de notre organisation. En tant que votre gestionnaire, nous sommes tous tenus de participer chaque année à cette formation d'une demi-journée sur la prévention du harcèlement et de la violence au travail, y compris le harcèlement sexuel. <br><br>J'encourage beaucoup de dialogue car il est essentiel que chacun comprenne ce dont il s'agit et notre responsabilité partagée d'assurer un environnement de travail sûr pour tous. <br><br>Profitez de l'atelier !"],
+        "useInitPopulation": ["Welcome to our mandatory onboarding workshop. We’re glad that you are all new employees with our organization. As your manager, we are all required to participate in this half day Preventing Workplace Harassment and Violence training annually, including Sexual Harassment.  <br><br>I encourage lots of dialogue because it’s key that everyone understands what it is and our shared responsibility to ensure a safe work environment for everyone. <br><br>Enjoy the workshop!"],
         "initWidth": "[%num]510",
         "initHeight": "[%num]502",
         "useContentRect": {
@@ -2310,7 +2310,7 @@
             "x": "[%num]179",
             "y": "[%num]401"
         },
-        "useInitPopulation": ["<strong>You</strong><br/> Salut Elisapee, juste une question avant de commencer: <br>I have already taken this course. Do I need to stay?<br>"],
+        "useInitPopulation": ["<strong>You</strong><br/> Hi Elisapee, just a question before we begin: <br>I have already taken this course. Do I need to stay?<br>"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -3925,7 +3925,7 @@
             "NarrativesData": [{
                 "Speaker": "You",
                 "comp_id": "comp_16",
-                "Line": "Salut Elisapee, juste une question avant de commencer: \nI have already taken this course. Do I need to stay?\n",
+                "Line": "Hi Elisapee, just a question before we begin: \nI have already taken this course. Do I need to stay?\n",
                 "bubbleStyle": {
                     "type": "say"
                 },

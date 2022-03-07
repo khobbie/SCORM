@@ -130,16 +130,16 @@
             "defaultAssetLocation": "StoryData/lib/Sprites",
             "data": [{
                 "AssetID": "You",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
                 "spriteFrameData": [
-                    [0, 0, 240, 320]
+                    [0, 5, 230, 500]
                 ]
             }, {
                 "AssetID": "Male smili",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -148,7 +148,7 @@
                 ]
             }, {
                 "AssetID": "Female ang",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -157,7 +157,7 @@
                 ]
             }, {
                 "AssetID": "Lucy",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -166,7 +166,7 @@
                 ]
             }, {
                 "AssetID": "Sad Lucy",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -175,7 +175,7 @@
                 ]
             }, {
                 "AssetID": "Manager le",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -184,7 +184,7 @@
                 ]
             }, {
                 "AssetID": "Manager",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
