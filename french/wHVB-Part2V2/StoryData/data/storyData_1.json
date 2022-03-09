@@ -168,7 +168,7 @@
                     "default": [0, 0, "default"]
                 },
                 "spriteFrameData": [
-                    [930, 0, 210, 500]
+                    [0, 5, 230, 500]
                 ]
             }, {
                 "AssetID": "Lucy 2",
@@ -178,6 +178,15 @@
                 },
                 "spriteFrameData": [
                     [1140, 0, 234, 500]
+                ]
+            }, {
+                "AssetID": "Mike",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                "animationsData": {
+                    "default": [0, 0, "default"]
+                },
+                "spriteFrameData": [
+                    [1340, 0, 234, 500]
                 ]
             }]
         },
@@ -3634,7 +3643,7 @@
                 }, {
                     "ID": "comp_14",
                     "Type": "Button",
-                    "AssetID": "You",
+                    "AssetID": "Mike",
                     "initX": 0,
                     "initY": 282,
                     "scaleX": 1,

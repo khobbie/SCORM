@@ -127,16 +127,16 @@
             "defaultAssetLocation": "StoryData/lib/Sprites",
             "data": [{
                 "AssetID": "You",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
                 "spriteFrameData": [
-                    [0, 0, 240, 320]
+                    [0, 5, 230, 500]
                 ]
             }, {
                 "AssetID": "kj",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -145,7 +145,7 @@
                 ]
             }, {
                 "AssetID": "Lucy",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -154,7 +154,7 @@
                 ]
             }, {
                 "AssetID": "Manager",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -163,7 +163,7 @@
                 ]
             }, {
                 "AssetID": "Manager Le",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
@@ -172,12 +172,21 @@
                 ]
             }, {
                 "AssetID": "Lucy 2",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_1.png",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
                 "animationsData": {
                     "default": [0, 0, "default"]
                 },
                 "spriteFrameData": [
                     [1140, 0, 234, 500]
+                ]
+            }, {
+                "AssetID": "Mike",
+                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                "animationsData": {
+                    "default": [0, 0, "default"]
+                },
+                "spriteFrameData": [
+                    [1340, 0, 234, 500]
                 ]
             }]
         },
@@ -3634,14 +3643,14 @@
                 }, {
                     "ID": "comp_14",
                     "Type": "Button",
-                    "AssetID": "You",
+                    "AssetID": "Mike",
                     "initX": 0,
                     "initY": 282,
                     "scaleX": 1,
                     "scaleY": "[%num]1.00",
                     "initWidth": 240,
                     "initHeight": 320,
-                    "defName": "You",
+                    "defName": "Mike",
                     "Name": "Mike",
                     "tabEnabled": "[%true]",
                     "outOnClick": "[%true]",

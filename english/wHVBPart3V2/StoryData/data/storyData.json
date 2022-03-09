@@ -1,4 +1,4 @@
-﻿{
+{
     "comment": "Adventure Engine Data Produced by The Brightspace Story Builder",
     "ProjectData": {
         "Author": "D2L Author",
@@ -129,60 +129,71 @@
         "sprites": {
             "defaultAssetLocation": "StoryData/lib/Sprites",
             "data": [{
-                "AssetID": "You",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
-                "animationsData": {
-                    "default": [0, 0, "default"]
+                    "AssetID": "You",
+                    "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                    "animationsData": {
+                        "default": [0, 0, "default"]
+                    },
+                    "spriteFrameData": [
+                        [0, 5, 230, 500]
+                    ]
                 },
-                "spriteFrameData": [
-                    [0, 5, 230, 500]
-                ]
-            }, {
-                "AssetID": "Manager l",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
-                "animationsData": {
-                    "default": [0, 0, "default"]
-                },
-                "spriteFrameData": [
-                    [240, 0, 210, 500]
-                ]
-            }, {
-                "AssetID": "Elder",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
-                "animationsData": {
-                    "default": [0, 0, "default"]
-                },
-                "spriteFrameData": [
-                    [450, 0, 266, 500]
-                ]
-            }, {
-                "AssetID": "Angry",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
-                "animationsData": {
-                    "default": [0, 0, "default"]
-                },
-                "spriteFrameData": [
-                    [716, 0, 225, 500]
-                ]
-            }, {
-                "AssetID": "smile",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
-                "animationsData": {
-                    "default": [0, 0, "default"]
-                },
-                "spriteFrameData": [
-                    [941, 0, 234, 500]
-                ]
-            }, {
-                "AssetID": "Lucy Angry",
-                "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
-                "animationsData": {
-                    "default": [0, 0, "default"]
-                },
-                "spriteFrameData": [
-                    [1175, 0, 234, 500]
-                ]
-            }]
+                {
+                    "AssetID": "You2",
+                    "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                    "animationsData": {
+                        "default": [0, 0, "default"]
+                    },
+                    "spriteFrameData": [
+                        [1335, 0, 234, 500]
+                    ]
+                }, {
+                    "AssetID": "Manager l",
+                    "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                    "animationsData": {
+                        "default": [0, 0, "default"]
+                    },
+                    "spriteFrameData": [
+                        [240, 0, 210, 500]
+                    ]
+                }, {
+                    "AssetID": "Elder",
+                    "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                    "animationsData": {
+                        "default": [0, 0, "default"]
+                    },
+                    "spriteFrameData": [
+                        [450, 0, 266, 500]
+                    ]
+                }, {
+                    "AssetID": "Angry",
+                    "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                    "animationsData": {
+                        "default": [0, 0, "default"]
+                    },
+                    "spriteFrameData": [
+                        [716, 0, 225, 500]
+                    ]
+                }, {
+                    "AssetID": "smile",
+                    "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                    "animationsData": {
+                        "default": [0, 0, "default"]
+                    },
+                    "spriteFrameData": [
+                        [941, 0, 234, 500]
+                    ]
+                }, {
+                    "AssetID": "Lucy Angry",
+                    "AssetLocation": "StoryData/lib/Sprites/AssetsSheet_2.png",
+                    "animationsData": {
+                        "default": [0, 0, "default"]
+                    },
+                    "spriteFrameData": [
+                        [1175, 0, 234, 500]
+                    ]
+                }
+            ]
         },
         "data": {
             "defaultAssetLocation": "StoryData/lib/Data",
@@ -309,7 +320,7 @@
             "color": "#FFEE1A",
             "strokeWidth": "[%num]0"
         },
-        "useInitPopulation": ["Vous retournez dans le petit bureau où vous retrouvez Lucy qui parle avec une policière. À la réception, un jeune homme crie des insultes, tandis qu’un policier tente de le maîtriser."],
+        "useInitPopulation": ["You return to the small boardroom to find a female police officer speaking with Lucy.  There is a young man screaming and swearing and male police officer restraining him at reception. "],
         "initWidth": "[%num]510",
         "initHeight": "[%num]278",
         "useContentRect": {
@@ -362,7 +373,7 @@
             "color": "#FFEE1A",
             "strokeWidth": "[%num]0"
         },
-        "useInitPopulation": ["Lucy se retourne et vous demande en criant pourquoi vous avez appelé la police et de quel droit avez-vous interféré. Elle vous accuse d’avoir aggravé la situation. Elle dit qu’elle sera sûrement congédiée et perçue comme une personne à problèmes. Elle ne veut pas coopérer et elle veut s’en aller. "],
+        "useInitPopulation": ["Lucy turns to you and starts yelling, asking why you called the police.  What right did you have to interfere in the first place? She says that you’ve only made it worse for her. And now she’ll surely be fired and labelled a troublemaker.  She won’t cooperate and wants to leave.  "],
         "initWidth": "[%num]510",
         "initHeight": "[%num]326",
         "useContentRect": {
@@ -442,7 +453,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "La policière dit à Lucy de se calmer, que c'est une bonne chose que la police soit arrivée et elle vous demande de partir.",
+                "InitText": "The female police officer tells her to calm down and that it was good thing that they were called, and asks you to leave.",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -464,7 +475,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Suivant",
+                "InitText": "Next",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -564,7 +575,7 @@
             "x": "[%num]369",
             "y": "[%num]381"
         },
-        "useInitPopulation": ["<strong>Responsable</strong><br/> Bonjour, entre. Merci d’être là. Évidemment, conformément à notre politique de violence en milieu de travail, je vais devoir mener une enquête sur l’incident d'aujourd’hui."],
+        "useInitPopulation": ["<strong>Manager</strong><br/> Hi, come on in. Thank you for coming to see me.  As you know from our internal workplace violence policy, I will be leading the investigation on this incident."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -627,7 +638,7 @@
             "x": "[%num]938",
             "y": "[%num]371"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Oui, je comprends."],
+        "useInitPopulation": ["<strong>You</strong><br/> Yes, of course."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -690,7 +701,7 @@
             "x": "[%num]369",
             "y": "[%num]381"
         },
-        "useInitPopulation": ["<strong>Responsable</strong><br/> J'aimerais avoir par courriel ta version détaillée de ce qui s'est passé, ce que tu as vu et les raisons qui expliquent tes actions."],
+        "useInitPopulation": ["<strong>Manager</strong><br/> I will need you to send me an email with the details of what happened, what you observed and the reason for your actions."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -753,7 +764,7 @@
             "x": "[%num]938",
             "y": "[%num]371"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Bien sûr. Ai-je fait quelque chose de mal?"],
+        "useInitPopulation": ["<strong>You</strong><br/> Sure. Did I do something wrong?"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -816,7 +827,7 @@
             "x": "[%num]369",
             "y": "[%num]381"
         },
-        "useInitPopulation": ["<strong>Responsable</strong><br/> Non, mais je dois en parler immédiatement au Directeur général et remplir un signalement avant demain. Je dois donc recueillir l’information rapidement. <br><br>N’oublie pas d’inclure tous les témoins de l’incident."],
+        "useInitPopulation": ["<strong>Manager</strong><br/> No, but I need to brief the Executive Director right away and file an incident report by tomorrow. So, I really need the information quickly.<br><br>Be sure to include anyone else who also saw the incident."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -879,7 +890,7 @@
             "x": "[%num]938",
             "y": "[%num]371"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Je suis encore sous le choc. Est-ce que je dois le faire tout de suite?"],
+        "useInitPopulation": ["<strong>You</strong><br/> I’m really shaken up. Do I need to do this right away?"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -942,7 +953,7 @@
             "x": "[%num]369",
             "y": "[%num]381"
         },
-        "useInitPopulation": ["<strong>Responsable</strong><br/> Oui, j'en ai bien peur."],
+        "useInitPopulation": ["<strong>Manager</strong><br/> Yes, I’m afraid so."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -970,7 +981,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "La situation vous touche encore et c'est l’heure du dîner. Que devriez-vous faire?",
+                "InitText": "You are pretty shaken up and it's lunch time. What should you do?",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -992,7 +1003,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Écrire le rapport et aller manger.",
+                "InitText": "Type the report, then go for lunch",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -1015,7 +1026,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Aller manger et prendre le reste de la journée de congé.",
+                "InitText": "Take lunch, leave for rest of day.",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -1061,6 +1072,7 @@
         }
     }, {
         "ID": "Narr_Node_3_0",
+        "AssetID": "You2",
         "Style": "Bubble",
         "initX": "[%num]146",
         "initY": "[%num]113",
@@ -1115,7 +1127,7 @@
             "x": "[%num]138",
             "y": "[%num]357"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Merci de me recevoir, Enuapiq. J'ai apporté des bleuets frais. Je voulais Ies partager avec vous."],
+        "useInitPopulation": ["<strong>You</strong><br/> Thank you for meeting with me Enuapiq. I brought some fresh blueberries for you.  I wanted to share them with you."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1178,7 +1190,7 @@
             "x": "[%num]790",
             "y": "[%num]375"
         },
-        "useInitPopulation": ["<strong>Aîné</strong><br/> Nakurmiik pour les kigutangirnai. C'est toujours un plaisir de te voir. De quoi voulais-tu me parler?"],
+        "useInitPopulation": ["<strong>Elder</strong><br/> Nakurmiik for the kigutangirnai.  It’s always a pleasure to see you.  What would you like to discuss with me."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1241,7 +1253,7 @@
             "x": "[%num]58",
             "y": "[%num]387"
         },
-        "useInitPopulation": ["<strong>You</strong><br/> J’ai de la difficulté à dormir. Pourtant, je sais que j’ai fait la bonne chose en appelant la police quand il est venu au bureau. Elle était effrayée. Lucy reste polie, mais je sens qu'elle m’en veut. Ça rend l’atmosphère très inconfortable au travail.<br><br>On travaille à proximité. On travaille sur le même projet. Je n’aime pas la tension que j’ai créée."],
+        "useInitPopulation": ["<strong>You</strong><br/> I am having very restless sleep.  Although I know I did the right thing by calling the police because he came to the office. She was scared of him.  Lucy is polite but I feel like she’s mad at me. It’s making for a very uncomfortable work environment.<br><br>We sit next to each other. We work on the same project together.  I don’t like the tension I have caused."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1304,7 +1316,7 @@
             "x": "[%num]790",
             "y": "[%num]375"
         },
-        "useInitPopulation": ["<strong>Elder</strong><br/> En tant qu’Inuit, nous estimons les valeurs d'harmonie, de travail d'équipe, de communication ouverte et de coopération.<br><br>Tu n'as pas causé le problème, il s'est présenté à vous sur les lieux de travail."],
+        "useInitPopulation": ["<strong>Elder</strong><br/> As Inuit, we value harmony, working together, open communications and cooperation.<br><br>You did not cause the problem, it was something brought into the workplace."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1367,7 +1379,7 @@
             "x": "[%num]52",
             "y": "[%num]363"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> J’ai l’impression que je devrais aller travailler ailleurs."],
+        "useInitPopulation": ["<strong>You</strong><br/> I feel like I should just go work somewhere else."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1430,7 +1442,7 @@
             "x": "[%num]790",
             "y": "[%num]375"
         },
-        "useInitPopulation": ["<strong>Aîné</strong><br/> Démissionner n'est pas la solution. Il faut persévérer dans les moments difficiles et trouver le bon moment pour partager nos émotions. Veux-tu rétablir la relation?"],
+        "useInitPopulation": ["<strong>Elder</strong><br/> Quitting is not the answer.  We persevere through hard times and find the right time to talk openly about our feelings. Do you want to restore the relationship?"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1493,7 +1505,7 @@
             "x": "[%num]82",
             "y": "[%num]344"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Oui. J’aimerais pouvoir passer à autre chose."],
+        "useInitPopulation": ["<strong>You</strong><br/> Yes. I want to be able to clear the air."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1556,7 +1568,7 @@
             "x": "[%num]790",
             "y": "[%num]375"
         },
-        "useInitPopulation": ["<strong>Aîné</strong><br/> Est-ce que je peux parler à ta responsable au sujet de solutions culturellement intéressantes?"],
+        "useInitPopulation": ["<strong>Elder</strong><br/> Do you mind if I talk to your manager about some culturally relevant options?"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1584,7 +1596,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "L’aîné avise la responsable que la relation entre Lucy et les intervenants de première ligne est tendue.",
+                "InitText": "The Elder advised the manager that the relationship between Lucy and the CSW is strained. ",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -1606,7 +1618,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Suivant",
+                "InitText": "Next",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -1706,7 +1718,7 @@
             "x": "[%num]409",
             "y": "[%num]388"
         },
-        "useInitPopulation": ["<strong>Responsable</strong><br/> Ce n’est pas un choix judicieux. Vous avez la responsabilité de fournir ces renseignements sans tarder, tout comme l'employeur."],
+        "useInitPopulation": ["<strong>Manager</strong><br/> That is not a wise choice. You have a responsibility to provide the information, as does your employer, in a timely manner."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1734,7 +1746,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "Veuillez cliquer sur Rejouer la scène pour recommencer la Partie 3.",
+                "InitText": "Please click Replay Story to restart Part 3.",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -1853,7 +1865,7 @@
             "x": "[%num]889",
             "y": "[%num]394"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Je suis désolée que tu penses que je t’ai trahie, Lucy. J’aimerais qu’on puisse discuter de ce qui s'est passé. Pour rétablir notre relation. Et pour me sentir en sécurité au travail. On doit trouver une façon de travailler ensemble dans l’harmonie."],
+        "useInitPopulation": ["<strong>You</strong><br/> I’m sorry you feel I broke your trust, Lucy. I need to be able to talk about what happened. To restore our relationship.  And to feel safe at work.  I need to be able to have an open and positive working relationship with you."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1916,7 +1928,7 @@
             "x": "[%num]320",
             "y": "[%num]389"
         },
-        "useInitPopulation": ["<strong>Lucy</strong><br/> Je sais que l’incident était effrayant pour tout le monde. Je n’ai pas voulu affronter le problème à la maison et j'ai mis les autres en danger. Je ne t’en veux pas et je suis désolée de ce que je t’ai dit. Je le regrette et j’ai honte de mon comportement. J’ai été chercher de l'aide et on est en sécurité."],
+        "useInitPopulation": ["<strong>Lucy</strong><br/> I know the incident was scary for everyone. I didn’t want to deal with the situation at home, which put others at risk.  I am not mad at you, and I apologize for my words at the time.  I still feel ashamed and embarrassed about it. I am getting the help I need and we are all safe."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -1979,7 +1991,7 @@
             "x": "[%num]889",
             "y": "[%num]394"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Alors, j’aimerais savoir si, à partir de maintenant, notre relation de travail est revenue à la normale?"],
+        "useInitPopulation": ["<strong>You</strong><br/> What I need from you moving forward is to know that we are okay – our working relationship."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2042,7 +2054,7 @@
             "x": "[%num]320",
             "y": "[%num]389"
         },
-        "useInitPopulation": ["<strong>Lucy</strong><br/> Certainement. Je te respecte beaucoup et je te remercie de ton aide."],
+        "useInitPopulation": ["<strong>Lucy</strong><br/> Yes we are. I really respect you and thank you for your support."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2070,7 +2082,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "Comment te sens-tu à présent?",
+                "InitText": "How do you feel now?",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -2092,7 +2104,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Mieux",
+                "InitText": "Better",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]250",
                 "InWinLockOverride": "[%true]",
@@ -2115,7 +2127,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Quitter avec des doutes en tête.",
+                "InitText": "Leave, but still have doubts",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]250",
                 "InWinLockOverride": "[%true]",
@@ -2215,7 +2227,7 @@
             "x": "[%num]320",
             "y": "[%num]379"
         },
-        "useInitPopulation": ["<strong>Responsable</strong><br/> Nous avons tous des rôles et des responsabilités afin d'assurer un milieu de travail sécuritaire et solidaire. Il faut suivre le processus en gardant l'esprit ouvert."],
+        "useInitPopulation": ["<strong>Manager</strong><br/> We all have roles and responsibilities to ensure a safe and supportive work environment. Work with the process and in an open manner."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2243,7 +2255,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "Félicitations! <br> Vous avez terminé la Partie 3 / 3 sur la violence et le harcèlement en milieu de travail– Rôles et responsabilités. <br> <br> Veuillez cliquer sur Suivant au bas de l’écran pour continuer. ",
+                "InitText": "You have completed Workplace Harassment and Violence – Roles and Responsibilities Part 3/3. <br><br>Please click the Next arrow at the bottom of the screen to continue.",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -2328,7 +2340,7 @@
             "color": "#FFEE1A",
             "strokeWidth": "[%num]0"
         },
-        "useInitPopulation": ["Vous donnez un câlin de réconfort à Lucy et vous partez pour la fin de semaine."],
+        "useInitPopulation": ["You give Lucy a supportive hug and leave for the weekend."],
         "initWidth": "[%num]510",
         "initHeight": "[%num]206",
         "useContentRect": {
@@ -2384,7 +2396,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "Félicitations! Vous avez terminé la Partie 3 / 3 sur la violence et le harcèlement en milieu de travail– Rôles et responsabilités.<br><br>Veuillez cliquer sur Suivant au bas de l’écran pour continuer.",
+                "InitText": "Congratulations! You have completed Workplace Harassment and Violence – Roles and Responsibilities Part 3/3. <br><br>Please click the Next arrow at the bottom of the screen to continue.",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -2503,7 +2515,7 @@
             "x": "[%num]974",
             "y": "[%num]358"
         },
-        "useInitPopulation": ["<strong>Vous</strong><br/> Je suis désolée que tu penses que je t’ai trahie, Lucy.<br><br>C'est une situation sérieuse, pour tout le monde."],
+        "useInitPopulation": ["<strong>You</strong><br/> I’m sorry you feel I broke your trust, Lucy.<br><br>This is serious, for everyone."],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2566,7 +2578,7 @@
             "x": "[%num]352",
             "y": "[%num]357"
         },
-        "useInitPopulation": ["<strong>Lucy, fâchée</strong><br/> Laisse-moi tranquille!"],
+        "useInitPopulation": ["<strong>Lucy Angry</strong><br/> Just leave me alone!"],
         "contentTextSizeBoost": 4,
         "contentColor": "#575B5C"
     }, {
@@ -2594,7 +2606,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "Vous ne savez pas quoi faire, alors vous retournez à votre bureau.",
+                "InitText": "You aren't sure what to do next so you go back to your desk.",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -2616,7 +2628,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Suivant",
+                "InitText": "Next",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -2682,7 +2694,7 @@
             "color": "#FFEE1A",
             "strokeWidth": "[%num]0"
         },
-        "useInitPopulation": ["L’équipe de gestion réagit et offre à Lucy le soutien dont elle a besoin grâce au programme d'aide aux employés, au centre d’intervention de crise et d’aiguillage ainsi qu’aux membres de la famille. <br><br>Vous vous sentez mieux, mais c'est encore troublant. Tout est allé très vite. Une minute vous préparez votre café pour commencer la journée, et la minute suivante vous prenez des décisions rapides au sujet d’une situation potentielle de violence en milieu de travail et d’une collègue en détresse. "],
+        "useInitPopulation": ["The Management team is responding to the situation, providing Lucy the appropriate support with her domestic situation and employee supports through EAP, local crisis referrals and family member. <br><br>You feel better, but you’re still shaken. Everything happened so fast. One minute you’re in the kitchen making your coffee, getting ready for the day, then making quick decisions about a potential workplace violence incident, and colleague in distress. "],
         "initWidth": "[%num]510",
         "initHeight": "[%num]462",
         "useContentRect": {
@@ -2738,7 +2750,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "Vous tremblez encore quand la responsable vous demande de la rejoindre dans son bureau, en privé.",
+                "InitText": "You’re still shaking when your Manager calls you into her office to meet privately.",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -2760,7 +2772,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Suivant",
+                "InitText": "Next",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -2826,7 +2838,7 @@
             "color": "#FFEE1A",
             "strokeWidth": "[%num]0"
         },
-        "useInitPopulation": ["Une semaine après l’évènement, vous n’avez pas réussi à reprendre le dessus. Vous avez envoyé le rapport à votre responsable, en mentionnant les commentaires désobligeants de votre collègue masculin, Joshua, lequel sera rencontré à ce propos. Vous recevez un grand soutien de votre responsable et du responsable des ressources humaines, qui affirme que vous avez très bien réagi à la menace de violence en milieu de travail en prenant les bonnes décisions. "],
+        "useInitPopulation": ["A week after the incident you still feel shaken up.  You provided your report to the manager, and even let them know Joshua, your male co-worker, had made some insensitive comments, that they will be addressing. You’re getting great support from your Manager and the HR Manager, who said you addressed the workplace violence threat very well and made the right decision.  "],
         "initWidth": "[%num]510",
         "initHeight": "[%num]374",
         "useContentRect": {
@@ -2882,7 +2894,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "L’employeur vous offre aussi du temps sur les heures de travail pour parler avec un aîné afin de recevoir des conseils ou du soutien émotionnel. Vous avez choisi de rencontrer un aîné de l’organisation pour obtenir des conseils dans le respect de la culture.  ",
+                "InitText": "As an employer, they are also giving you dedicated time during work hours to speak with a counsellor for debriefing and emotional support. You have elected to meet with the Elder counsellor in the organization, for cultural counselling. ",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -2904,7 +2916,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Suivant",
+                "InitText": "Next",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -2970,7 +2982,7 @@
             "color": "#FFEE1A",
             "strokeWidth": "[%num]0"
         },
-        "useInitPopulation": ["Selon l'approche inuit, le dialogue est nécessaire pour régler les problèmes d’harmonie et de relation de travail dysfonctionnelle. L’aîné et le responsable des RH vont codiriger un mode alternatif et formel de résolution de conflit appelé la médiation. La rencontre aura lieu vendredi. "],
+        "useInitPopulation": ["With Inuit cultural approaches, dialogue is needed to resolve the issues for harmony and productive work relations. The Elder and HR manager are co-facilitating a formal alternate dispute resolution process called mediation.  The session is scheduled for a Friday. "],
         "initWidth": "[%num]510",
         "initHeight": "[%num]302",
         "useContentRect": {
@@ -3026,7 +3038,7 @@
             [{
                 "ID": "NarrEW_Text",
                 "Type": "Text",
-                "InitText": "Tout le monde est prévenu qu’il s’agit d’un processus facilitant, structuré, confidentiel et officiel pour trouver un terrain d'entente.",
+                "InitText": "Everyone is informed that it is a supportive, structured, confidential and official process to find common understanding and resolution.",
                 "InWinLockOverride": "[%true]",
                 "initX": "[%num]0",
                 "initY": "[%num]0",
@@ -3048,7 +3060,7 @@
                     "downColor": "[%getGlobal('primaryButtonColor_Down')]",
                     "radius": "[%num][%getGlobal('generalButtonRadius')]"
                 },
-                "InitText": "Suivant",
+                "InitText": "Next",
                 "initHeight": "[%num]48",
                 "initWidth": "[%num]450",
                 "InWinLockOverride": "[%true]",
@@ -3127,7 +3139,7 @@
             }],
             "StorySceneOptions": {
                 "optionButtons": [{
-                    "buttonText": "Suivant"
+                    "buttonText": "Next"
                 }, {
                     "buttonText": "Option 2"
                 }],
@@ -3513,7 +3525,7 @@
             }],
             "StorySceneOptions": {
                 "optionButtons": [{
-                    "buttonText": "Suivant"
+                    "buttonText": "Next"
                 }, {
                     "buttonText": "Option 2"
                 }],
@@ -3993,7 +4005,7 @@
             }],
             "StorySceneOptions": {
                 "optionButtons": [{
-                    "buttonText": "Suivant"
+                    "buttonText": "Next"
                 }, {
                     "buttonText": "Option 2"
                 }],
@@ -4097,7 +4109,7 @@
             }],
             "StorySceneOptions": {
                 "optionButtons": [{
-                    "buttonText": "Suivant"
+                    "buttonText": "Next"
                 }, {
                     "buttonText": "Option 2"
                 }],
@@ -4129,7 +4141,7 @@
             }],
             "StorySceneOptions": {
                 "optionButtons": [{
-                    "buttonText": "Suivant"
+                    "buttonText": "Next"
                 }, {
                     "buttonText": "Option 2"
                 }],
@@ -4161,7 +4173,7 @@
             }],
             "StorySceneOptions": {
                 "optionButtons": [{
-                    "buttonText": "Suivant"
+                    "buttonText": "Next"
                 }, {
                     "buttonText": "Option 2"
                 }],
