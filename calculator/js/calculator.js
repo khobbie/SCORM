@@ -70,15 +70,21 @@ $(document).ready(function() {
 
 
 
+        if (resultString.length > 6) {
+            $(".displayResult").removeClass("display-1")
+            $(".displayResult").addClass("display-6")
+        }
+
         if (symbol === "C") {
             resultString = "";
             actualResultString = "";
+
+            $(".displayResult").removeClass("display-6")
+            $(".displayResult").addClass("display-1")
+
             $(".displayResult").text(resultString);
             return false;
         }
-
-        // resultString = resultString + symbol;
-        // actualResultString = actualResultString + symbol;
 
         let lastResultString = "";
 
