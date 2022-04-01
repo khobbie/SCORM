@@ -27,14 +27,6 @@ $(document).ready(function() {
         return sign;
     }
 
-    function calculatedResult(resultString) {
-        if (lastResultString === ("-" || "+" || "÷" || "×")) {
-            resultString.pop()
-            return false;
-        } else {
-            compute("1+2+3")
-        }
-    }
 
     function compute(resultString) {
 
@@ -130,7 +122,7 @@ $(document).ready(function() {
             resultString = compute(newActualResultString.trim());
             actualResultString = resultString;
             // alert("result will be calculated")
-            $(".displayResult").text(resultString);
+            $(".displayResult").text(String(resultString).replace(/(.)(?=(\d{3})+$)/g, '$1,'));
         } else {
 
             let newResultString = resultString.replace("=", '')
